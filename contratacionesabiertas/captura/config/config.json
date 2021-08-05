@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "prueba_captura",
-    "password": "p4ssw0rd",
+    "password": "password",
     "database": "edca",
     "port": "5432",
     "host": "localhost",

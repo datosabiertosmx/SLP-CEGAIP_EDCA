@@ -8,7 +8,7 @@ const config = {
     port: process.env.POSTGRES_PORT || 5432,
     database: process.env.POSTGRES_NAME ||'edca',
     user: process.env.POSTGRES_USER || 'prueba_captura',
-    password: process.env.POSTGRES_PASSWORD || 'p4ssw0rd'
+    password: process.env.POSTGRES_PASSWORD || 'password'
 };
 
 var edca_db = pgp(config);
@@ -20,7 +20,7 @@ const configDash = {
     port: process.env.POSTGRES_PORT || 5432,
     database: process.env.POSTGRES_NAME ||'edca',
     user: process.env.POSTGRES_USER || 'prueba_dashboard',
-    password: process.env.POSTGRES_PASSWORD || 'p4ssw0rd'
+    password: process.env.POSTGRES_PASSWORD || 'password'
 };
 
 const globals = {
